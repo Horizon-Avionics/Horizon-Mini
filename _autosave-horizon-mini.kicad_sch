@@ -8105,12 +8105,6 @@
 		(uuid "5b420935-f7bb-4cd7-8144-72b78d282b4c")
 	)
 	(junction
-		(at 50.8 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fd5a4ae-3aee-4609-8e9c-4811961d87c9")
-	)
-	(junction
 		(at -53.34 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8665,16 +8659,6 @@
 			(type default)
 		)
 		(uuid "1a7e0264-5383-4672-8979-cb6829072f49")
-	)
-	(wire
-		(pts
-			(xy -27.94 54.61) (xy -31.75 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b74fc2d-8be9-4244-9c81-35cc7925afc9")
 	)
 	(wire
 		(pts
@@ -9748,16 +9732,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 140.97) (xy 50.8 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be24b607-4af5-490c-b38f-cbb8073a83d5")
-	)
-	(wire
-		(pts
 			(xy 252.73 40.64) (xy 252.73 55.88)
 		)
 		(stroke
@@ -9775,6 +9749,16 @@
 			(type default)
 		)
 		(uuid "c0616d40-9f1b-4df7-8086-cb5cff04a3de")
+	)
+	(wire
+		(pts
+			(xy -31.75 54.61) (xy -29.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d78a19-1319-465a-80af-ccea292c644d")
 	)
 	(wire
 		(pts
@@ -10115,16 +10099,6 @@
 			(type default)
 		)
 		(uuid "f0273220-50bc-44ca-9f33-2abc3e4c5142")
-	)
-	(wire
-		(pts
-			(xy 50.8 140.97) (xy 69.85 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f098d0fd-a8f8-4b37-9676-2518613c7c62")
 	)
 	(wire
 		(pts
@@ -11152,28 +11126,6 @@
 			)
 		)
 	)
-	(global_label "INTERRUPT TMCU"
-		(shape input)
-		(at -27.94 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dba74b0f-59d1-4965-8af2-7649c9cabc2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -8.8077 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MISO TMCU"
 		(shape input)
 		(at -55.88 167.64 180)
@@ -11187,28 +11139,6 @@
 		(uuid "de446c81-f994-4098-b3b0-bd469848024b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -69.4485 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CS_IMU TMCU"
-		(shape input)
-		(at 49.53 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4eff58a-8703-43f6-9144-5957e78ad935")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.7239 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11468,7 +11398,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "03abe038-efdb-4fb3-8056-c0ce3f91fc03")
 		(property "Reference" "#PWR061"
 			(at -30.48 46.99 0)
@@ -11480,7 +11409,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -33.02 46.9899 90)
+			(at -21.5899 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11596,7 +11525,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at -27.94 46.99 0)
+		(at -21.59 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11604,7 +11533,7 @@
 		(dnp no)
 		(uuid "050dc7bf-0086-4278-ab77-e9927d1e3c6f")
 		(property "Reference" "#PWR071"
-			(at -27.94 50.8 0)
+			(at -25.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11613,7 +11542,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at -27.94 41.656 90)
+			(at -16.256 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11621,7 +11550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -27.94 46.99 0)
+			(at -21.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11630,7 +11559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -27.94 46.99 0)
+			(at -21.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11639,7 +11568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at -27.94 46.99 0)
+			(at -21.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12964,71 +12893,6 @@
 			(project "horizon-mini"
 				(path "/2e9ea5c6-e973-4316-a82c-e40ce72f6995"
 					(reference "#PWR0211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 50.8 148.59 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "252119f7-7bfd-4ac9-b9e2-9dd9a77ca1d0")
-		(property "Reference" "#PWR095"
-			(at 50.8 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 50.8 153.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 50.8 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "980fd643-9fc0-4f7f-bc2c-a36b7e0eaffa")
-		)
-		(instances
-			(project "horizon-mini"
-				(path "/2e9ea5c6-e973-4316-a82c-e40ce72f6995"
-					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -15449,7 +15313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TMCU"
+		(property "Value" "MCU"
 			(at 85.852 153.416 0)
 			(effects
 				(font
@@ -16363,75 +16227,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 50.8 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e5460e1-d106-4dff-a3c7-936c5159f514")
-		(property "Reference" "R26"
-			(at 45.466 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 45.466 147.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.022 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 50.8 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d7d846d1-774f-449e-88fe-506cfc567aba")
-		)
-		(pin "1"
-			(uuid "f6270944-c5c7-4b6a-a371-b2334e6b434a")
-		)
-		(instances
-			(project "horizon-mini"
-				(path "/2e9ea5c6-e973-4316-a82c-e40ce72f6995"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at -55.88 165.1 270)
 		(unit 1)
@@ -17196,7 +16991,7 @@
 			)
 		)
 		(property "Value" "SMLVN6RGB"
-			(at -96.52 137.16 0)
+			(at -96.52 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21371,7 +21166,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at -27.94 50.8 0)
+		(at -25.4 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21380,7 +21175,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0545148-0cb6-4471-a599-5107fa114b4c")
 		(property "Reference" "R28"
-			(at -25.4 49.5299 0)
+			(at -24.1299 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21389,7 +21184,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at -25.4 52.0699 0)
+			(at -26.6699 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21398,7 +21193,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at -29.718 50.8 90)
+			(at -25.4 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21407,7 +21202,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -27.94 50.8 0)
+			(at -25.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21416,7 +21211,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at -27.94 50.8 0)
+			(at -25.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -8397,6 +8397,10 @@
 		(uuid "10b7cfc7-5b88-46b2-8b34-c8447dad0687")
 	)
 	(no_connect
+		(at 105.41 107.95)
+		(uuid "1fa4331f-39e3-49d5-b806-f529f2a9da5e")
+	)
+	(no_connect
 		(at 69.85 153.67)
 		(uuid "2aee91fb-decd-4e9c-babc-946d5153c2f6")
 	)
@@ -8419,6 +8423,10 @@
 	(no_connect
 		(at 105.41 118.11)
 		(uuid "46a83e5d-4093-479f-b88e-f1e626aaaf60")
+	)
+	(no_connect
+		(at 69.85 115.57)
+		(uuid "58623ed0-433f-4cc7-8363-b89c6cde5a8e")
 	)
 	(no_connect
 		(at 105.41 146.05)
@@ -8445,6 +8453,10 @@
 		(uuid "73195e61-20cc-4b11-86b1-9e20a9e75989")
 	)
 	(no_connect
+		(at 69.85 135.89)
+		(uuid "74be1392-2f3c-4412-a602-6ccecbf3d6dd")
+	)
+	(no_connect
 		(at 105.41 115.57)
 		(uuid "7f66c5e3-2f6c-4256-afc4-238bd1a87b1f")
 	)
@@ -8463,6 +8475,10 @@
 	(no_connect
 		(at 105.41 125.73)
 		(uuid "9b437c8e-de32-486e-a864-0e7dd15fd105")
+	)
+	(no_connect
+		(at 69.85 138.43)
+		(uuid "9c37a896-6673-4195-aeaa-f6bcc4e05aa3")
 	)
 	(no_connect
 		(at 238.76 139.7)
@@ -8535,6 +8551,10 @@
 	(no_connect
 		(at 69.85 156.21)
 		(uuid "fc69e56a-7ae0-4d4a-be38-9855a22f29be")
+	)
+	(no_connect
+		(at 69.85 113.03)
+		(uuid "ff97a700-3e5d-496a-a656-a276631fc2b5")
 	)
 	(wire
 		(pts
@@ -10756,28 +10776,6 @@
 			)
 		)
 	)
-	(global_label "SPI_CLOCK TMCU"
-		(shape input)
-		(at 69.85 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6c45c64d-9f54-42d6-bab2-ac28c5ef49eb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.6572 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PTA12"
 		(shape input)
 		(at 105.41 161.29 0)
@@ -11143,28 +11141,6 @@
 		(uuid "d240d74e-49dd-4afe-90cd-02bf17e1bfec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.6155 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "INTERRUPT TMCU"
-		(shape input)
-		(at -27.94 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dba74b0f-59d1-4965-8af2-7649c9cabc2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -8.8077 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

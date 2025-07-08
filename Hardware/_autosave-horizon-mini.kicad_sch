@@ -12458,7 +12458,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "210d35bf-2c43-4f21-8e47-0f7900021b1f")
 		(property "Reference" "Q10"
 			(at 234.95 34.29 90)
@@ -12817,7 +12816,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2478fb20-8149-442f-94a4-1f67a808613c")
 		(property "Reference" "C40"
 			(at 259.08 43.1799 0)
@@ -21769,7 +21767,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fa7463a8-4c1c-47cc-8df2-6de08b0a58ec")
 		(property "Reference" "R9"
 			(at 243.84 129.5399 0)

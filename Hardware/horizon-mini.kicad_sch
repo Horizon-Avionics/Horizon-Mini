@@ -7777,12 +7777,6 @@
 		(uuid "68342709-48be-4b7c-9298-c64cfd7f4fe7")
 	)
 	(junction
-		(at 124.46 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cb62ff0-940f-48aa-bdfc-50ac2129a25f")
-	)
-	(junction
 		(at 252.73 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8167,16 +8161,6 @@
 			(type default)
 		)
 		(uuid "0ca20955-2e7b-414d-8a54-7c06f1c6b4ce")
-	)
-	(wire
-		(pts
-			(xy 124.46 167.64) (xy 124.46 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d73b078-e267-486f-a079-b459e927e9ba")
 	)
 	(wire
 		(pts
@@ -9180,7 +9164,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 175.26) (xy 124.46 173.99)
+			(xy 124.46 167.64) (xy 124.46 175.26)
 		)
 		(stroke
 			(width 0)
@@ -11986,6 +11970,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
@@ -12445,76 +12430,6 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 128.27 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a7faa96-1a25-42d5-a5ed-37752c56ffd7")
-		(property "Reference" "R5"
-			(at 126.9999 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 129.5399 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 175.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9747ee4-c911-4d7b-97a5-77b88f84a9a0")
-		)
-		(pin "2"
-			(uuid "092c4e1e-4421-414b-997d-3d78c21e5f31")
-		)
-		(instances
-			(project "horizon-mini"
-				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -20866,72 +20781,6 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 132.08 173.99 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e33a10cc-0dcf-4dff-9428-c376d77779fa")
-		(property "Reference" "#PWR0212"
-			(at 128.27 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 137.668 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 132.08 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba7922b1-e4e3-43e1-9834-06f1614e0055")
-		)
-		(instances
-			(project "horizon-mini"
-				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
-					(reference "#PWR0212")
 					(unit 1)
 				)
 			)

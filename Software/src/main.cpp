@@ -9,7 +9,13 @@
 #include <indicators/buzzer.hpp>
 #include <indicators/led.hpp>
 
+#include "../include/constants.hpp"
+
 // put function declarations here:
+
+BMU bmu;
+IMU imu;
+LED led;
 
 void setup() {
 }

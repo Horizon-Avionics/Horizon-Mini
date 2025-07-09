@@ -1,8 +1,8 @@
 ---
 Title: "H²"
-Author: "Your name (name or slack username)"
+Author: "@Stars, @Scooter Y"
 Description: "Our Horizon avionics board for amatuer rocketry slimmed down to a tinby 35x35mm square!"
-Created On: "10/7/2025"
+Created On: "6/28/2025"
 ---
  
 Day 1- Saturday- 2 Hours - Liam:

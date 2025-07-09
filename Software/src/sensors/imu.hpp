@@ -40,86 +40,18 @@ class IMU{
             if (!lsm6ds3trc.begin_I2C()) {
                 return 1;
             }
-            switch (lsm6ds3trc.getAccelRange()) {
-            case LSM6DS_ACCEL_RANGE_2_G:
-                break;
-            case LSM6DS_ACCEL_RANGE_4_G:
-                break;
-            case LSM6DS_ACCEL_RANGE_8_G:
-                break;
-            case LSM6DS_ACCEL_RANGE_16_G:
-                break;
-            }
-            switch (lsm6ds3trc.getGyroRange()) {
-            case LSM6DS_GYRO_RANGE_125_DPS:
-                break;
-            case LSM6DS_GYRO_RANGE_250_DPS:
-                break;
-            case LSM6DS_GYRO_RANGE_500_DPS:
-                break;
-            case LSM6DS_GYRO_RANGE_1000_DPS:
-                break;
-            case LSM6DS_GYRO_RANGE_2000_DPS:
-                break;
-            case ISM330DHCX_GYRO_RANGE_4000_DPS:
-                break; // unsupported range for the DS33
-            }
-            switch (lsm6ds3trc.getAccelDataRate()) {
-            case LSM6DS_RATE_SHUTDOWN:
-                break;
-            case LSM6DS_RATE_12_5_HZ:
-                break;
-            case LSM6DS_RATE_26_HZ:
-                break;
-            case LSM6DS_RATE_52_HZ:
-                break;
-            case LSM6DS_RATE_104_HZ:
-                break;
-            case LSM6DS_RATE_208_HZ:
-                break;
-            case LSM6DS_RATE_416_HZ:
-                break;
-            case LSM6DS_RATE_833_HZ:
-                break;
-            case LSM6DS_RATE_1_66K_HZ:
-                break;
-            case LSM6DS_RATE_3_33K_HZ:
-                break;
-            case LSM6DS_RATE_6_66K_HZ:
-                break;
-            }
-            switch (lsm6ds3trc.getGyroDataRate()) {
-            case LSM6DS_RATE_SHUTDOWN:
-                break;
-            case LSM6DS_RATE_12_5_HZ:
-                break;
-            case LSM6DS_RATE_26_HZ:
-                break;
-            case LSM6DS_RATE_52_HZ:
-                break;
-            case LSM6DS_RATE_104_HZ:
-                break;
-            case LSM6DS_RATE_208_HZ:
-                break;
-            case LSM6DS_RATE_416_HZ:
-                break;
-            case LSM6DS_RATE_833_HZ:
-                break;
-            case LSM6DS_RATE_1_66K_HZ:
-                break;
-            case LSM6DS_RATE_3_33K_HZ:
-                break;
-            case LSM6DS_RATE_6_66K_HZ:
-                break;
-            }
-            lsm6ds3trc.configInt1(false, false, true); // accelerometer DRDY on INT1
-            lsm6ds3trc.configInt2(false, true, false); // gyro DRDY on INT2
+            lsm6ds3trc.setAccelRange(LSM6DS_ACCEL_RANGE_16_G);
+            lsm6ds3trc.setGyroRange(LSM6DS_GYRO_RANGE_250_DPS);
+            lsm6ds3trc.setAccelDataRate(LSM6DS_RATE_208_HZ);
+            lsm6ds3trc.setGyroDataRate(LSM6DS_RATE_208_HZ);  
+            lsm6ds3trc.configInt1(false, false, true);     
+            lsm6ds3trc.configInt2(false, true, false);  
             return 0;
         }
         
-        void imuGetData(float deltaTime = 0.01) {
-            sensors_event_t accel, gyro;
-            if (lsm6ds3trc.getEvent(&accel, &gyro)) {
+        int imuGetData(float deltaTime = 0.01) {
+            sensors_event_t accel, gyro, temp;
+            if (lsm6ds3trc.getEvent(&accel, &gyro, &temp)) {
                 accelX = accel.acceleration.x;
                 accelY = accel.acceleration.y;
                 accelZ = accel.acceleration.z;
@@ -133,7 +65,11 @@ class IMU{
                 speedZ += accelZ * deltaTime;
 
                 velocity = sqrt(speedX * speedX + speedY * speedY + speedZ * speedZ);
+                return 0;
             }
+            else{
+                return 2;
+            } 
         }
 };
 

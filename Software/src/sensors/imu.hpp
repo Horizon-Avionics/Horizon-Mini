@@ -30,6 +30,8 @@ class IMU{
 
         float relAlt;
 
+        float velocity;
+
         float autoUP;
 
 
@@ -115,21 +117,23 @@ class IMU{
             return 0;
         }
         
-        float updateIMU(){
-          sensors_event_t accel;
-          sensors_event_t gyro;
-          sensors_event_t temp;
-          lsm6ds3trc.getEvent(&accel, &gyro, &temp);
+        void imuGetData(float deltaTime = 0.01) {
+            sensors_event_t accel, gyro;
+            if (lsm6ds3trc.getEvent(&accel, &gyro)) {
+                accelX = accel.acceleration.x;
+                accelY = accel.acceleration.y;
+                accelZ = accel.acceleration.z;
 
-          gyroX = gyro.gyro.x;
-          gyroY = gyro.gyro.y;
-          gyroZ = gyro.gyro.z;
+                gyroX = gyro.gyro.x;
+                gyroY = gyro.gyro.y;
+                gyroZ = gyro.gyro.z;
 
-          accelX = accel.acceleration.x;
-          accelY = accel.acceleration.y;
-          accelZ = accel.acceleration.z;
+                speedX += accelX * deltaTime;
+                speedY += accelY * deltaTime;
+                speedZ += accelZ * deltaTime;
 
-
+                velocity = sqrt(speedX * speedX + speedY * speedY + speedZ * speedZ);
+            }
         }
 };
 

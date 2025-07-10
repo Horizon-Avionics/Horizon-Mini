@@ -21,4 +21,10 @@ Today I finally finishd routing all the traces for v1. This definitly took me so
 
 Day 4 - Tuesday - 8 hours - 2 from Liam, and 6 from Scooter:
 
+Liam: I decided I needed some help getting this smaller. I asked scooter to help with the final traces and he got them done! we also made a logo for the silkscreen and mounting holes. I spend a couple hours getting some of the software done while scooter finished the pcb. 
 
+
+
+Day 5 - Thursday - 6 Hours - 3 from Liam, and 3 from scooter: 
+Scooter: I finally finished the pcb and the bom. Planning on submitting today!
+Liam: I did software for the LED, IMU, and Barometer. I still need to do the buzzer and NAND/SD card. 

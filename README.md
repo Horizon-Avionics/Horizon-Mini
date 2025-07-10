@@ -2,7 +2,7 @@
 
 ## Building an open source flight logger
 
-### By Scooty Y and Liam G
+### By Scooter Y and Liam G
 
 ------
 
@@ -25,8 +25,8 @@ The Goal of this project was to build a simpler datalogger for model rockets to 
 
 ### Some Photos So Far
 
-![image](https://github.com/user-attachments/assets/4f798576-2a2a-40cc-96e8-24cf39a89057)
-![image](https://github.com/user-attachments/assets/c83f1a7a-d0c4-47c1-934c-d2f711475afa)
-![image](https://github.com/user-attachments/assets/bed94868-f991-4d4c-bf15-8acd95b8b909)
-![image](https://github.com/user-attachments/assets/17ecafb4-b945-414b-a132-3ecccd010a7f)
-![image](https://github.com/user-attachments/assets/4cf7e7c3-a743-48ac-b4f1-7bfc19de2636)
+<img width="1822" height="849" alt="image" src="https://github.com/user-attachments/assets/50140b84-f242-4538-85bd-25bf466c10a5" />
+<img width="865" height="800" alt="image" src="https://github.com/user-attachments/assets/5bd975d9-e279-4e25-b992-286456d9282f" />
+<img width="964" height="895" alt="image" src="https://github.com/user-attachments/assets/e4494178-1a97-4c30-8544-a7b2a36ae598" />
+<img width="1104" height="897" alt="image" src="https://github.com/user-attachments/assets/dcdfdecd-3d72-42b8-ab56-33b7ddaa6b5c" />
+

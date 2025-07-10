@@ -3,6 +3,7 @@ Title: "H²"
 Author: "@Stars, @Scooter Y"
 Description: "Our Horizon avionics board for amatuer rocketry slimmed down to a tinby 35x35mm square!"
 Created On: "6/28/2025"
+Total Time: 25 Hours
 ---
  
 Day 1- Saturday- 2 Hours - Liam:

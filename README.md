@@ -8,7 +8,7 @@
 
 #### About:
 
-The Goal of this project was to build a simpler datalogger for model rockets to collect the info needed for most rocketiers
+The Goal of this project was to build a simpler datalogger for model rockets to collect the info needed for most rocketiers. We built this as a dev board so when we eventually produce the larger V1 board, we can weed out issues before spending $400. We are also planning on selling these board if they work.
 
 #### Features:
 

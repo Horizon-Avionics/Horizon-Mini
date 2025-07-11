@@ -52,11 +52,14 @@
 ## Extra Parts
 | Comment | Part # | Qty | Total Price |
 | --- | --- | --- | --- |
-| LPS22HB | LPS22HB | 2 | Possibly Free... |
+| LPS22HB | https://canada.newark.com/stmicroelectronics/lps22hbtr/pressure-sensor-absolute-26-126kpa/dp/83Y4304 | 2 | 15.90 |
 | DAPLINK | https://www.amazon.com/DKARDU-Replaces-downloader-Emulator-Interface/dp/B0BGQZHL75 | 1 | 8 |
+| Hot Air Gun | https://www.amazon.ca/TXINLEI-858D-Station-Tweezers-Desoldering/dp/B07FBGFT3K | 1 | 49.56 |
 
 ---
 
 ## Totals
-- **PCB assembly total (with tax & shipping):** 250.98
-- **Grand total:** $260 USD
+- **PCB total (with tax & shipping):** 43.59
+- **LCSC Parts total (with tax & shipping):** 46.16
+- **Other Items(with tax & shipping):** 23.80
+- **Grand total:** $113.55

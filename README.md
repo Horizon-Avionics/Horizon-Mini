@@ -8,7 +8,7 @@
 
 #### About:
 
-The Goal of this project was to build a simpler datalogger for model rockets to collect the info needed for most rocketiers. We built this as a dev board so when we eventually produce the larger V1 board, we can weed out issues before spending $400. We are also planning on selling these board if they work.
+The Goal of this project was to build a simpler datalogger for model rockets to collect the info needed for most rocketiers from multiple sensors including an IMU and Baro. We built this as a dev board so when we eventually produce the larger V1 board, we can weed out issues before spending $400.
 
 #### Features:
 
@@ -19,7 +19,7 @@ The Goal of this project was to build a simpler datalogger for model rockets to 
 
 ##### Checkout locally
 
-1. `git clone https://github.com/Horizon-Avionics/Horizon-Avionics-Hardware`
+1. `git clone https://github.com/Horizon-Avionics/Horizon-Mini`
 
 2. Open the corresponding folder in KiCad 9.0
 

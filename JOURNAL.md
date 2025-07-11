@@ -1,9 +1,9 @@
 ---
 Title: "H²"
 Author: "@Stars, @Scooter Y"
-Description: "Our Horizon avionics board for amatuer rocketry slimmed down to a tinby 35x35mm square!"
+Description: "Our Horizon avionics board for amatuer rocketry slimmed down to a tiny 36x36mm square!"
 Created On: "6/28/2025"
-Total Time: 25 Hours
+Total Time: 27 Hours
 ---
  
 Day 1- Saturday- 2 Hours - Liam:
@@ -25,7 +25,10 @@ Day 4 - Tuesday - 8 hours - 2 from Liam, and 6 from Scooter:
 Liam: I decided I needed some help getting this smaller. I asked scooter to help with the final traces and he got them done! we also made a logo for the silkscreen and mounting holes. I spend a couple hours getting some of the software done while scooter finished the pcb. 
 
 
+Day 5 - Thursday - 8 Hours - 3 from Liam, and 5 from scooter: 
 
-Day 5 - Thursday - 6 Hours - 3 from Liam, and 3 from scooter: 
-Scooter: I finally finished the pcb and the bom. Planning on submitting today!
+Scooter: Today, I finally finished the pcb and finished getting the BOM created. That difinitly took me some time as every time I made it, one part needed to be changed since I found a mistake :why:... at least now it's all good! I'm hoping on submitting today too!
+
 Liam: I did software for the LED, IMU, and Barometer. I still need to do the buzzer and NAND/SD card. 
+
+<img width="835" height="783" alt="image" src="https://github.com/user-attachments/assets/381c7b61-d153-431f-9a79-31ef57d77b01" />

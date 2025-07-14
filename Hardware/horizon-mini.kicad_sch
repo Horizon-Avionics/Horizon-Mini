@@ -19441,7 +19441,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "F1uF"
+		(property "Value" "1uF"
 			(at 70.866 86.106 0)
 			(effects
 				(font

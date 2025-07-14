@@ -1,6 +1,6 @@
 {
   "C_Cpp_Runner.cCompilerPath": "C:/Users/Liamn/.platformio/packages/toolchain-gccarmnoneeabi@1.90301.200702/bin/arm-none-eabi-gcc.exe",
-  "C_Cpp_Runner.cppCompilerPath": "C:/msys64/mingw64/bin/g++.exe",
+  "C_Cpp_Runner.cppCompilerPath": "C:/Users/Liamn/.platformio/packages/toolchain-g++armnoneeabi@1.90301.200702/bin/arm-none-eabi-gcc.exe",
   "C_Cpp_Runner.debuggerPath": "C:/Users/Liamn/.platformio/packages/toolchain-gdbarmnoneeabi@1.90301.200702/bin/arm-none-eabi-gcc.exe",
   "C_Cpp_Runner.cStandard": "gnu11",
   "C_Cpp_Runner.cppStandard": "gnu++11",

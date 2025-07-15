@@ -29,4 +29,4 @@ The Goal of this project was to build a simpler datalogger for model rockets to 
 ![Front3dView](<Screenshot 2025-07-15 160824.png>)
 ![Traces](<Screenshot 2025-07-15 160807.png>)
 ![More Traces](<Screenshot 2025-07-15 160802.png>)
-![Schematic!](<Screenshot 2025-07-15 160729.png>)
+![Schematic](<Screenshot 2025-07-15 164811.png>)

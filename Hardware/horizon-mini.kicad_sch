@@ -7648,6 +7648,12 @@
 		(uuid "15182823-e69f-425a-a1c9-28dd56c2379e")
 	)
 	(junction
+		(at 91.44 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15199331-d392-438d-9e3b-881df5baabee")
+	)
+	(junction
 		(at 41.91 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7706,6 +7712,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40f16234-f084-4fc4-b74b-671f599e0aa2")
+	)
+	(junction
+		(at 76.2 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42c6c614-b41b-4059-9e8d-df90d1c01093")
 	)
 	(junction
 		(at 252.73 40.64)
@@ -7846,6 +7858,12 @@
 		(uuid "a40b626e-efc2-4524-926d-814cc5c0eed2")
 	)
 	(junction
+		(at 86.36 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a781105e-5ef5-4e6b-a991-34eb341384eb")
+	)
+	(junction
 		(at 241.3 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7874,6 +7892,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bef8c213-1dcc-4766-8a04-c49cec2eed9b")
+	)
+	(junction
+		(at 81.28 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c27a60ab-710a-4cd0-86cb-e1db1beb8b8f")
+	)
+	(junction
+		(at 83.82 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4a66139-ec15-42fb-9cbb-6cf97ef7c781")
 	)
 	(junction
 		(at 45.72 31.75)
@@ -8143,6 +8173,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 78.74) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b58ad89-6a19-42f9-a0fb-1b1d024e6b74")
+	)
+	(wire
+		(pts
 			(xy 215.9 90.17) (xy 215.9 86.36)
 		)
 		(stroke
@@ -8220,6 +8260,16 @@
 			(type default)
 		)
 		(uuid "10e68550-051b-4d8d-bb26-ff89ca74637c")
+	)
+	(wire
+		(pts
+			(xy 78.74 72.39) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ef3dfa-ab0b-4838-9997-a7dbc011017d")
 	)
 	(wire
 		(pts
@@ -8373,6 +8423,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 78.74) (xy 81.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333c272e-707c-46c3-802b-33874dcca9f3")
+	)
+	(wire
+		(pts
 			(xy 241.3 138.43) (xy 241.3 137.16)
 		)
 		(stroke
@@ -8470,6 +8530,16 @@
 			(type default)
 		)
 		(uuid "46d48491-bbb4-4314-bb84-bdc2eeea71d8")
+	)
+	(wire
+		(pts
+			(xy 86.36 78.74) (xy 86.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471ba0c3-b2d1-4fcf-b071-df27c1afdc32")
 	)
 	(wire
 		(pts
@@ -9253,6 +9323,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 82.55) (xy 83.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7c95b3-9da1-4c7b-b48a-af1fdbd9d7a6")
+	)
+	(wire
+		(pts
 			(xy 41.91 49.53) (xy 41.91 50.8)
 		)
 		(stroke
@@ -9603,6 +9683,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 78.74) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f117a8e1-f160-48bb-8f9f-ba8ad3e7ef15")
+	)
+	(wire
+		(pts
 			(xy 160.02 204.47) (xy 160.02 205.74)
 		)
 		(stroke
@@ -9620,6 +9710,16 @@
 			(type default)
 		)
 		(uuid "f448ced0-aa5a-44da-a33c-c05415c7c665")
+	)
+	(wire
+		(pts
+			(xy 86.36 72.39) (xy 88.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f463bd4b-9dec-4b75-9fcd-8a16cb968cd2")
 	)
 	(wire
 		(pts
@@ -10672,6 +10772,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 73.66 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01e3c276-f64b-4824-9695-7eb1999918ef")
+		(property "Reference" "#PWR074"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 69.85 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46de45e9-ddfa-4847-b8a0-6b686f41257e")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 157.48 86.36 0)
 		(unit 1)
@@ -11003,6 +11170,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 93.98 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0afd3da4-9a9d-42b2-9e64-46c0e387feb3")
+		(property "Reference" "#PWR068"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 97.79 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff88a5b9-d659-4ea5-8f95-355809989667")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 232.41 97.79 90)
 		(unit 1)
@@ -11073,6 +11307,72 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e50a9a2-42e8-40b5-88cd-f4981418071d")
+		(property "Reference" "#PWR080"
+			(at 91.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a85bde7-4de4-49ac-9f9f-5f4d90297418")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -11483,7 +11783,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 87.63 0)
+		(at 83.82 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11491,25 +11791,27 @@
 		(dnp no)
 		(uuid "1d45a0a2-8181-4311-813b-3884b0a6975d")
 		(property "Reference" "C8"
-			(at 83.058 79.502 0)
+			(at 83.058 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 81.788 81.534 0)
+			(at 81.788 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 84.7852 91.44 0)
+			(at 84.7852 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11518,7 +11820,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 87.63 0)
+			(at 83.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11527,7 +11829,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 83.82 87.63 0)
+			(at 83.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13464,6 +13766,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 83.82 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f4f2363-d3b7-4ea4-a6c4-e40f4d43b199")
+		(property "Reference" "#PWR081"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b438d799-cda0-4021-a8bf-9ded3d90b8ad")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 58.42 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14377,6 +14746,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 76.2 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64fac2c5-3978-4076-8ed7-5ff0e17b9814")
+		(property "Reference" "#PWR067"
+			(at 76.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54390b99-d230-4eef-a1fa-da5189c5ffa5")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:PMEG6020ER")
 		(at 77.47 27.94 270)
 		(unit 1)
@@ -14506,6 +14941,72 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 83.82 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69c9960a-2a4d-4d8c-9824-1b9a2e4ce72a")
+		(property "Reference" "#PWR069"
+			(at 83.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 83.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03507b9a-dc1a-40a8-9820-16b95d48ac66")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -16438,6 +16939,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "10uF"
@@ -16447,6 +16949,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -16675,6 +17178,73 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "982e3072-d6ea-4bce-a016-00acd2071e65")
+		(property "Reference" "#PWR065"
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 102.87 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0af7ee4a-7b30-4d42-971d-b36a56a80adf")
+		)
+		(instances
+			(project ""
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -19083,7 +19653,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 86.36 87.63 0)
+		(at 90.17 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19091,25 +19661,27 @@
 		(dnp no)
 		(uuid "c9323ad7-01ec-45ec-ac8d-8562cded6145")
 		(property "Reference" "C9"
-			(at 87.63 78.232 0)
+			(at 99.568 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 87.122 80.772 0)
+			(at 97.028 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 87.3252 91.44 0)
+			(at 86.36 79.7052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19118,7 +19690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 87.63 0)
+			(at 90.17 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19127,7 +19699,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 86.36 87.63 0)
+			(at 90.17 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20481,7 +21053,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 87.63 0)
+		(at 77.47 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20489,25 +21061,27 @@
 		(dnp no)
 		(uuid "e293f997-63cd-45f5-8eaa-b33d6c7aaa0b")
 		(property "Reference" "C7"
-			(at 76.454 86.614 0)
+			(at 76.454 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 75.946 89.154 0)
+			(at 78.994 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 82.2452 91.44 0)
+			(at 81.28 77.7748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20516,7 +21090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 87.63 0)
+			(at 77.47 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20525,7 +21099,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 81.28 87.63 0)
+			(at 77.47 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20609,6 +21183,73 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb5473e7-52ae-4377-83b4-8e4c6dc47254")
+		(property "Reference" "#PWR066"
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 102.87 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d0a7cb6-f9cf-45ae-b4b4-c7663b705132")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -21089,6 +21730,140 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6e9f885-acde-4451-8cb2-e4e2cc6eb943")
+		(property "Reference" "#PWR078"
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e629fa2f-6d6c-4073-a5d2-9283b499fb8e")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7d612cb-9dab-4793-89a4-610b7d10ed10")
+		(property "Reference" "#PWR079"
+			(at 72.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1bfa130-5268-42f8-b163-6d3785eb3b60")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)

@@ -2162,6 +2162,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -7064,6 +7213,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:IRLML6402"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRLML6402"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel HEXFET MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRLML6402_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRLML6402_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -7756,6 +8203,12 @@
 		(uuid "61043115-ab81-4082-8823-537dd523efba")
 	)
 	(junction
+		(at 274.32 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "621cac98-1a08-4e01-82de-1951e81c6f8d")
+	)
+	(junction
 		(at 217.17 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7870,6 +8323,12 @@
 		(uuid "ae0792d0-527a-4eef-8b38-b3cacfc0eb05")
 	)
 	(junction
+		(at 237.49 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae501bd0-a30a-4132-9dca-12eb6611d75a")
+	)
+	(junction
 		(at 181.61 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7888,6 +8347,12 @@
 		(uuid "bd336edb-a3bb-4632-bc67-6c2499e42596")
 	)
 	(junction
+		(at 274.32 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be1c31f1-18f8-49cc-ba2f-e8a5dfb7e5f1")
+	)
+	(junction
 		(at 241.3 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7904,6 +8369,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4a66139-ec15-42fb-9cbb-6cf97ef7c781")
+	)
+	(junction
+		(at 237.49 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceb2e545-e22c-4436-be41-55bc3715fa6c")
 	)
 	(junction
 		(at 45.72 31.75)
@@ -8280,6 +8751,16 @@
 			(type default)
 		)
 		(uuid "14366152-364c-4f60-b691-c2f4469f1101")
+	)
+	(wire
+		(pts
+			(xy 266.7 187.96) (xy 274.32 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a20c62-30bb-46f9-b8d7-e1efbfca396c")
 	)
 	(wire
 		(pts
@@ -8923,6 +9404,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 187.96) (xy 276.86 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eacdec1-ca5f-4946-bd45-e45f3789cd73")
+	)
+	(wire
+		(pts
 			(xy 217.17 144.78) (xy 217.17 154.94)
 		)
 		(stroke
@@ -8930,6 +9421,26 @@
 			(type default)
 		)
 		(uuid "71616a7c-2d8a-4802-b4c5-e258da40d981")
+	)
+	(wire
+		(pts
+			(xy 237.49 189.23) (xy 237.49 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d0444a-b08f-4a21-9c4f-50408305f26e")
+	)
+	(wire
+		(pts
+			(xy 274.32 199.39) (xy 270.51 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723e3dc2-cd3d-484d-8cf5-9c3a621cf3db")
 	)
 	(wire
 		(pts
@@ -9023,6 +9534,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 189.23) (xy 240.03 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845c166d-be95-4084-ba14-4842507f382e")
+	)
+	(wire
+		(pts
 			(xy 246.38 88.9) (xy 245.11 88.9)
 		)
 		(stroke
@@ -9090,6 +9611,16 @@
 			(type default)
 		)
 		(uuid "937f98f1-ce80-47f6-b977-2462e5c86488")
+	)
+	(wire
+		(pts
+			(xy 237.49 200.66) (xy 233.68 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94bc5803-a509-460f-a811-dcbb0fc4fbdd")
 	)
 	(wire
 		(pts
@@ -9193,6 +9724,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 187.96) (xy 274.32 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70ca63d-18ba-4a9c-a66a-e82bb785a2bc")
+	)
+	(wire
+		(pts
 			(xy 259.08 127) (xy 250.19 127)
 		)
 		(stroke
@@ -9283,6 +9824,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 200.66) (xy 229.87 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b867a439-ff12-4c68-9c45-2c3191bec6a5")
+	)
+	(wire
+		(pts
 			(xy 241.3 40.64) (xy 252.73 40.64)
 		)
 		(stroke
@@ -9290,6 +9841,16 @@
 			(type default)
 		)
 		(uuid "b8fb0943-ec8d-4abf-9a02-3b43cc4c5b11")
+	)
+	(wire
+		(pts
+			(xy 229.87 189.23) (xy 237.49 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b925262c-187c-4772-a916-b2664c17072b")
 	)
 	(wire
 		(pts
@@ -9310,6 +9871,16 @@
 			(type default)
 		)
 		(uuid "bc607945-21ac-449d-987e-d1610449f33c")
+	)
+	(wire
+		(pts
+			(xy 274.32 209.55) (xy 274.32 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6de7e4-dc45-4a9b-a6dd-967cb5bc3ccb")
 	)
 	(wire
 		(pts
@@ -9423,6 +9994,26 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 210.82) (xy 237.49 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd29351a-cdc0-4e6f-81af-89016fc41ad3")
+	)
+	(wire
+		(pts
+			(xy 274.32 200.66) (xy 274.32 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde7b06c-36ab-47fd-83ac-0dfbf0aef05c")
+	)
+	(wire
+		(pts
 			(xy 181.61 137.16) (xy 180.34 137.16)
 		)
 		(stroke
@@ -9470,6 +10061,16 @@
 			(type default)
 		)
 		(uuid "d38bdb7a-2331-42a1-98ca-783628a28c49")
+	)
+	(wire
+		(pts
+			(xy 237.49 201.93) (xy 237.49 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4244447-fc5c-4f9c-8bd8-9da5c8ddda2c")
 	)
 	(wire
 		(pts
@@ -9570,6 +10171,16 @@
 			(type default)
 		)
 		(uuid "deda761b-6f4e-4b5d-8122-d500bc3fbe3e")
+	)
+	(wire
+		(pts
+			(xy 270.51 199.39) (xy 266.7 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e003c9ce-bc97-485b-b563-42ad94d28e5b")
 	)
 	(wire
 		(pts
@@ -9891,6 +10502,28 @@
 			)
 		)
 	)
+	(global_label "mosfet1_signalfire"
+		(shape input)
+		(at 245.11 203.2 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b2cf484-24d9-4d3c-9639-c31b60a37e0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 223.7231 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CS_IMU TMCU"
 		(shape input)
 		(at 45.72 137.16 180)
@@ -10036,6 +10669,28 @@
 		(uuid "446c9b2d-e8d7-42e6-b98c-2d1913989fb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 48.1172 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mosfet2_signalfire"
+		(shape input)
+		(at 281.94 201.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4625a3e9-0f2e-4fcd-b78c-22727027d81f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.94 222.4531 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11648,6 +12303,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 266.7 191.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ade373f-36b3-4175-a6cc-1568e686e8b9")
+		(property "Reference" "D4"
+			(at 261.62 190.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 260.604 192.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 266.7 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 266.7 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 266.7 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a24d682c-86b6-480f-8b00-519c996661aa")
+		)
+		(pin "2"
+			(uuid "e2838b7d-7f67-4eab-a42d-686ba984c341")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 199.39 148.59 0)
 		(unit 1)
@@ -12491,6 +13224,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 276.86 194.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24e8ed2c-dc49-4490-a131-c00bff011fa2")
+		(property "Reference" "Q9"
+			(at 270.51 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402"
+			(at 270.51 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 271.78 192.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
+			(at 271.78 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 276.86 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd840b1c-1e65-446f-b965-c07fba51d035")
+		)
+		(pin "3"
+			(uuid "ff41c428-9481-41d9-8088-4d1b283f3901")
+		)
+		(pin "2"
+			(uuid "d2b1bbf8-7e12-4b68-8237-b4cf04e7fb3d")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 121.92 154.94 0)
 		(mirror y)
@@ -12751,6 +13560,73 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32ba76db-b302-404f-a23e-e621ade3451a")
+		(property "Reference" "#PWR0176"
+			(at 254 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7a77fac-ecb3-41cd-96ff-bee15cf5f624")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -13089,6 +13965,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 274.32 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38eb9767-e02b-4d40-8302-5217affe9996")
+		(property "Reference" "J20"
+			(at 265.43 176.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 265.43 179.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+			(at 274.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 274.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b9805be-84f8-49cc-8ed9-d075c50a6ce8")
+		)
+		(pin "1"
+			(uuid "686a8786-63d8-46fe-84a1-62e575c3866e")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 222.25 157.48 0)
 		(unit 1)
@@ -13361,6 +14306,73 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 284.48 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4158333c-62af-423e-873d-58b38037263b")
+		(property "Reference" "#PWR0178"
+			(at 290.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.56 189.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 284.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5d9524d-24f2-4030-886b-f02db520cbfe")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -13765,6 +14777,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 274.32 204.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d9007a1-32da-431f-95c4-d6eeb4acf81b")
+		(property "Reference" "R80"
+			(at 276.606 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 276.606 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 276.098 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 274.32 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46cf6318-9490-4eb4-83b4-fbcdff8e584e")
+		)
+		(pin "2"
+			(uuid "2d82d3f2-391f-4cf2-a04c-393bd22ceb71")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 83.82 82.55 270)
 		(unit 1)
@@ -13893,6 +14974,75 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 266.7 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54a4fef7-9086-4a3f-ab66-ee4688026894")
+		(property "Reference" "R59"
+			(at 258.064 197.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 258.064 200.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 264.922 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 266.7 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4328eb0-ade9-475b-8317-65c5609565d4")
+		)
+		(pin "2"
+			(uuid "20a62513-86cd-447d-917a-6ae6975bd784")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -14614,6 +15764,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 280.67 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "645f4ce2-fd9c-403b-a57c-83c1fd2c8ae5")
+		(property "Reference" "F2"
+			(at 280.67 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 280.67 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 285.75 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 280.67 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0865da3c-03c1-4481-a9bc-a416a8f2c123")
+		)
+		(pin "1"
+			(uuid "522dfa7a-20c0-4388-84d2-ed6396d079c7")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 45.72 24.13 180)
 		(unit 1)
@@ -15083,6 +16302,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 274.32 212.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c983376-2560-4d9a-ac31-9330a268dd00")
+		(property "Reference" "#PWR0177"
+			(at 274.32 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 274.32 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 274.32 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dfedb9a-c51b-4a65-bf37-3b677ea087c6")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 50.8 36.83 90)
 		(unit 1)
@@ -15277,6 +16562,76 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 245.11 199.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "712ac3ad-c012-44e2-8e0a-dbf8579f5706")
+		(property "Reference" "R79"
+			(at 247.65 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 247.65 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 246.888 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 245.11 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72353560-8788-4906-9c54-8a51dddeb9c5")
+		)
+		(pin "2"
+			(uuid "3c59dc09-ad89-4cde-b25a-34083513921f")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -17583,6 +18938,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 281.94 198.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f683417-c481-465c-8704-1199550724f4")
+		(property "Reference" "R81"
+			(at 284.48 196.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 284.48 199.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 283.718 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 281.94 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 281.94 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9206036-2081-48ab-918c-3e46914e34c7")
+		)
+		(pin "2"
+			(uuid "efc49d4c-fdd1-40ba-8b7d-1a186c6ce2b5")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 167.64 30.48 0)
 		(unit 1)
@@ -17642,6 +19067,72 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 237.49 213.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1bca0cc-d87f-40ec-8286-9dfa427cd971")
+		(property "Reference" "#PWR0174"
+			(at 237.49 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 237.49 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 237.49 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "922ec95d-2e21-48a7-8703-23fb743b2d84")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -18815,6 +20306,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 232.41 213.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b64ed773-38b9-4951-a657-cc952262674b")
+		(property "Reference" "J15"
+			(at 226.822 220.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "arming terminal"
+			(at 228.854 220.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+			(at 232.41 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 232.41 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0b5fb07-2b17-4b0c-a88f-76d883c39bc9")
+		)
+		(pin "1"
+			(uuid "ab3b15ed-bab8-430f-a0df-46a532f34c94")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 55.88 27.94 0)
 		(unit 1)
@@ -19384,6 +20942,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 240.03 195.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c39d8b04-444c-4081-a683-84b80a486644")
+		(property "Reference" "Q8"
+			(at 233.68 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLML6402"
+			(at 233.68 196.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 234.95 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
+			(at 234.95 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 240.03 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4fa9c31-e4d1-40fb-b968-77cf47e2791f")
+		)
+		(pin "3"
+			(uuid "ed2e4149-6271-4656-9adc-41defd882a26")
+		)
+		(pin "2"
+			(uuid "9a6fe058-924b-44d7-8c15-c7782558027c")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 167.64 204.47 90)
 		(unit 1)
@@ -19513,6 +21147,75 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 237.49 205.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c71b5cac-5aad-42b3-ab7a-c90e5411f29e")
+		(property "Reference" "R78"
+			(at 239.776 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 239.776 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 239.268 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a7b5482-6346-4d81-a4e1-e0fde4b5fb1a")
+		)
+		(pin "2"
+			(uuid "33f9fd06-155d-4a2d-9ea2-3fe01665df0f")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -20131,6 +21834,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 269.24 212.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2330987-ab50-4e3b-bbac-c8c6bb815c5e")
+		(property "Reference" "J16"
+			(at 263.652 219.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "arming terminal"
+			(at 265.684 219.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+			(at 269.24 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 269.24 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac7f1d75-ca4e-43ce-a6b5-36c0355e0c4d")
+		)
+		(pin "1"
+			(uuid "a83dda91-5426-4402-9336-2f74c584d876")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 166.37 96.52 0)
 		(unit 1)
@@ -20441,6 +22211,84 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 229.87 193.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5aa608b-2ad8-4f47-b2c4-71aaf1959130")
+		(property "Reference" "D3"
+			(at 224.79 191.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 223.774 193.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 229.87 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 229.87 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 229.87 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3b95fe2-30a8-4b6e-9313-ad42a1664872")
+		)
+		(pin "2"
+			(uuid "0d6a663a-77f4-462c-8971-553c3a8f946f")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -20910,6 +22758,144 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 237.49 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0891447-1168-4599-b683-cb10fd47a306")
+		(property "Reference" "J19"
+			(at 228.6 178.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 228.6 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+			(at 237.49 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 237.49 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "096e878c-4040-42b1-a8ec-52a3d77a4f75")
+		)
+		(pin "1"
+			(uuid "1d6ee6f8-2edf-49c1-a1a8-21214e5bb54a")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 229.87 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e096296d-28d2-437f-84d9-b1a536ffa3f9")
+		(property "Reference" "R58"
+			(at 221.234 199.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 221.234 201.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.092 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "003c8837-7116-49ed-8e36-db41751b6005")
+		)
+		(pin "2"
+			(uuid "1dfd0a79-ea5a-455a-aee1-045b43134fcb")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -22106,6 +24092,75 @@
 			(project "horizon-mini"
 				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 243.84 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffd424c5-b5a7-4b6a-8a7c-34b7995e92bc")
+		(property "Reference" "F1"
+			(at 243.84 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 243.84 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 248.92 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 243.84 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa44cd08-e85b-4e84-98db-eca0de1d0cb8")
+		)
+		(pin "1"
+			(uuid "44504a4c-0b56-4d4a-8ed9-aa104ec868ce")
+		)
+		(instances
+			(project "horizon-mini"
+				(path "/a5d09cc4-b500-42c0-a156-c181c966496f"
+					(reference "F1")
 					(unit 1)
 				)
 			)

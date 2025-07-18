@@ -25,8 +25,7 @@ The Goal of this project was to build a simpler datalogger for model rockets to 
 
 ### Some Photos So Far
 
-![Back3dView](<Screenshot 2025-07-15 160832.png>)
-![Front3dView](<Screenshot 2025-07-15 160824.png>)
-![Traces](<Screenshot 2025-07-15 160807.png>)
-![More Traces](<Screenshot 2025-07-15 160802.png>)
-![Schematic](<Screenshot 2025-07-15 164811.png>)
+<img width="817" height="790" alt="image" src="https://github.com/user-attachments/assets/c6c404d2-8a6b-4d09-baa2-b85b5df43723" />
+<img width="836" height="819" alt="image" src="https://github.com/user-attachments/assets/cd8af1c7-9e8f-4991-a6b8-391a73a3369e" />
+<img width="1049" height="881" alt="image" src="https://github.com/user-attachments/assets/7836674d-ffe4-4741-a055-6137e4f7c4e8" />
+<img width="967" height="842" alt="image" src="https://github.com/user-attachments/assets/fc1e126c-e6d1-4c46-b1ce-90a0a594c758" />

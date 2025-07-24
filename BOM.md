@@ -52,14 +52,14 @@
 ## Extra Parts
 | Comment | Part # | Qty | Total Price |
 | --- | --- | --- | --- |
-| LPS22HB | AliExpress | 2 | 4 |
-| DAPLINK | AliExpress | 2 | 4 |
-| Hot Air Gun | https://www.amazon.ca/TXINLEI-8858-Station-Soldering-Nozzles/dp/B09VXD8BTF | 1 | 35.44 |
+| LPS22HB | https://canada.newark.com/stmicroelectronics/lps22hbtr/pressure-sensor-absolute-26-126kpa/dp/83Y4304 | 2 | 15.90 |
+| DAPLINK | https://www.amazon.com/DKARDU-Replaces-downloader-Emulator-Interface/dp/B0BGQZHL75 | 1 | 8 |
+| Hot Air Gun | https://www.amazon.ca/TXINLEI-858D-Station-Tweezers-Desoldering/dp/B07FBGFT3K | 1 | 49.56 |
 
 ---
 
 ## Totals
-- **PCB total (with tax & shipping):** 41.06
-- **LCSC Parts total (with tax & shipping):** 52.14
-- **Other Items(with tax & shipping):** 43.44
-- **Grand total:** $136.64
+- **PCB total (with tax & shipping):** 43.59
+- **LCSC Parts total (with tax & shipping):** 46.16
+- **Other Items(with tax & shipping):** 23.80
+- **Grand total:** $113.55

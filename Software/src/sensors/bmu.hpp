@@ -1,7 +1,6 @@
 #ifndef BMU_HPP
 #define BMU_HPP
 
-#include <Arduino.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_LPS2X.h>
 

@@ -1,4 +1,3 @@
-#include <Arduino.h>
 
 #include <sensors/bmu.hpp>
 #include <sensors/imu.hpp>
@@ -11,6 +10,8 @@
 
 #include "../include/constants.hpp"
 
+#include "filters/filter.hpp"
+
 // put function declarations here:
 
 BMU bmu;
@@ -18,7 +19,10 @@ IMU imu;
 LED led;
 
 void setup() {
+    filterSetup();
 }
 
 void loop() {
+    updateValues();
+    filterLoop();
 }

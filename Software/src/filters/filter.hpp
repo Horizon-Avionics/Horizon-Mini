@@ -91,7 +91,6 @@ float baroTemperature = 0.0;
 float baroPressure = 0.0;
 float altitude = 0.0;
 float velocity = 0.0;
-float voltage = 0.0;
 float gyroX = 0.0;
 float gyroY = 0.0;
 float gyroZ = 0.0;
@@ -101,6 +100,19 @@ float accelZ = 0.0;
 
 float filtered[10] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
 
+void updateValues(){
+	float baroTemperature = Temp;
+	float baroPressure = Pressure;
+	float altitude = Alt;
+	float velocity = imuvelocity;
+	float gyroX = imugyroX;
+	float gyroY = imugyroY;
+	float gyroZ = imugyroZ;
+	float accelX = imuaccelX;
+	float accelY = imuaccelY;
+	float accelZ = imuaccelZ;
+}
+
 void filterSetup() {
 	// Use identity matrix as initiali covariance matrix
 	const float Pdiag[EKF_N] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
@@ -109,6 +121,7 @@ void filterSetup() {
 }
 
 void filterLoop() {
+
 	// Set the observation vector z
 	const float z[EKF_M] = {baroTemperature, baroPressure, altitude, velocity,
 	                        gyroX, gyroY, gyroZ, accelX, accelY, accelZ

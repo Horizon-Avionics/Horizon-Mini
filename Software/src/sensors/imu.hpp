@@ -1,8 +1,6 @@
 #ifndef IMU_HPP
 #define IMU_HPP
 
-#include <Arduino.h>
-
 #include <Adafruit_LSM6DS3TRC.h>
 #include <Adafruit_Sensor.h>
 
@@ -12,25 +10,25 @@ class IMU{
     private:
 
     public:
-        float gyroX;
-        float gyroY;
-        float gyroZ;
+        float imugyroX;
+        float imugyroY;
+        float imugyroZ;
 
         float absGyroX;
         float absGyroY;
         float absGyroZ;
 
-        float accelX;
-        float accelY;
-        float accelZ;
+        float imuaccelX;
+        float imuaccelY;
+        float imuaccelZ;
 
-        float speedX;
-        float speedY;
-        float speedZ;
+        float imuspeedX;
+        float imuspeedY;
+        float imuspeedZ;
 
         float relAlt;
 
-        float velocity;
+        float imuvelocity;
 
         float autoUP;
 
@@ -52,19 +50,19 @@ class IMU{
         int imuGetData(float deltaTime = 0.01) {
             sensors_event_t accel, gyro, temp;
             if (lsm6ds3trc.getEvent(&accel, &gyro, &temp)) {
-                accelX = accel.acceleration.x;
-                accelY = accel.acceleration.y;
-                accelZ = accel.acceleration.z;
+                imuaccelX = accel.acceleration.x;
+                imuaccelY = accel.acceleration.y;
+                imuaccelZ = accel.acceleration.z;
 
-                gyroX = gyro.gyro.x;
-                gyroY = gyro.gyro.y;
-                gyroZ = gyro.gyro.z;
+                imugyroX = gyro.gyro.x;
+                imugyroY = gyro.gyro.y;
+                imugyroZ = gyro.gyro.z;
 
-                speedX += accelX * deltaTime;
-                speedY += accelY * deltaTime;
-                speedZ += accelZ * deltaTime;
+                imuspeedX += imuaccelX * deltaTime;
+                imuspeedY += imuaccelY * deltaTime;
+                imuspeedZ += imuaccelZ * deltaTime;
 
-                velocity = sqrt(speedX * speedX + speedY * speedY + speedZ * speedZ);
+                imuvelocity = sqrt(imuspeedX * imuspeedX + imuspeedY * imuspeedY + imuspeedZ * imuspeedZ);
                 return 0;
             }
             else{

@@ -1,7 +1,6 @@
 #ifndef LED_HPP
 #define LED_HPP
 
-#include <Arduino.h>
 #include "../include/constants.hpp"
 
 class LED {

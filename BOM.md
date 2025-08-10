@@ -55,6 +55,7 @@
 | LPS22HB | AliExpress | 2 | 4 |
 | DAPLINK | AliExpress | 2 | 4 |
 | Hot Air Gun | https://www.amazon.ca/TXINLEI-8858-Station-Soldering-Nozzles/dp/B09VXD8BTF | 1 | 35.44 |
+| Solder Wick since I can't solder :( | | 1 | $6.99 |
 
 ---
 
@@ -63,3 +64,4 @@
 - **LCSC Parts total (with tax & shipping):** 52.14
 - **Other Items(with tax & shipping):** 43.44
 - **Grand total:** $136.64
+

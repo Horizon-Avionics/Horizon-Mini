@@ -1,8 +1,6 @@
 #ifndef CONSTANTS_HPP
 #define CONSTANTS_HPP
 
-#include <Arduino.h>
-
 struct Pins {
     public:
         static constexpr int LEDR = 0;

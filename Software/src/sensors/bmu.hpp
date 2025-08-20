@@ -1,8 +1,11 @@
 #ifndef BMU_HPP
 #define BMU_HPP
 
-#include <Adafruit_Sensor.h>
-#include <Adafruit_LPS2X.h>
+#include <zephyr/kernel.h>
+#include <zephyr/device.h>
+#include <zephyr/drivers/sensor.h>
+#include <stdio.h>
+#include <zephyr/sys/util.h>
 
 Adafruit_LPS22 lps;
 

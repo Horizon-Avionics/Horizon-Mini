@@ -1,8 +1,11 @@
 #ifndef IMU_HPP
 #define IMU_HPP
 
-#include <Adafruit_LSM6DS3TRC.h>
-#include <Adafruit_Sensor.h>
+#include <zephyr/kernel.h>
+#include <zephyr/device.h>
+#include <zephyr/drivers/sensor.h>
+#include <stdio.h>
+#include <zephyr/sys/util.h>
 
 Adafruit_LSM6DS3TRC lsm6ds3trc;
 

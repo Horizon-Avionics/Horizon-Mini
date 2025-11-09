@@ -10749,6 +10749,28 @@
 			)
 		)
 	)
+	(global_label "D+ DMCU-2"
+		(shape input)
+		(at 69.85 50.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5053b0a5-bb62-4328-8001-9acc9ebdd347")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 65.699 90)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "2G"
 		(shape input)
 		(at 101.6 154.94 0)
@@ -11406,6 +11428,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "D- DMCU-2"
+		(shape input)
+		(at 95.25 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb4751de-3075-4ea0-8714-14ffcb28cbc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.149 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)

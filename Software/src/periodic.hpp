@@ -12,12 +12,15 @@ class sensorPeriodic {
         BMU bmu;
         EMA ema;
     public:
+
+        String packet;
+
         void setup(void){
             imu.setup();
             bmu.bmuSetup();
             
         }
-
+        
         void filter(){
             imu.imuGetData();
             bmu.bmuGetData();
@@ -62,6 +65,17 @@ class sensorPeriodic {
 
             bmu.baro.tempOld = bmu.baro.tempFilt;
             bmu.baro.tempFilt = ema.filter(bmu.baro.tempOld, bmu.baro.temp);
+        }
+        
+        String packitize(){
+
+            packet = String(imu.Gyro.xFilt) + "," + String(imu.Gyro.yFilt) + "," + String(imu.Gyro.zFilt) + "," 
+            + String(imu.Accel.xFilt) + "," + String(imu.Accel.yFilt) + "," + String(imu.Accel.zFilt) + "," 
+            + String(imu.speed.xFilt) + "," + String(imu.speed.zFilt) + "," + String(imu.speed.veloFilt) + "," 
+            + String(imu.relAlt) + "," + String(bmu.baro.altFilt) + "," + String(bmu.baro.presFilt) + "," 
+            + String(bmu.baro.tempFilt);
+            return packet;
+            
         }
         
 };

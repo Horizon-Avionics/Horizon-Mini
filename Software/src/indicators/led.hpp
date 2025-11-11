@@ -51,7 +51,7 @@ public:
         void off() { digitalWrite(parent->pin.LEDB, LOW);  }
     } b{this};
 
-    void ledSetup(Pins p) {
+    void ledSetup() {
         pin = p;
         pinMode(pin.LEDR, OUTPUT);
         pinMode(pin.LEDG, OUTPUT);

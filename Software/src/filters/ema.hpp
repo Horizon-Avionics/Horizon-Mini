@@ -9,15 +9,16 @@
 Constants constants;
 
 class EMA {
-    float multFetch(int periods){
-        float mult = (2/(periods + 1));
-        return mult;
-    }
-    float filter(float emaOld, float newVal){
-        float multiplier = multFetch(constants.emaPeriods);
-        float ema = (newVal * multiplier) + (emaOld * (1 - multiplier));
-        return ema;
-    }
+    public:
+        float multFetch(int periods){
+            float mult = (2/(periods + 1));
+            return mult;
+        }
+        float filter(float emaOld, float newVal){
+            float multiplier = multFetch(constants.emaPeriods);
+            float ema = (newVal * multiplier) + (emaOld * (1 - multiplier));
+            return ema;
+        }
 };
 
 

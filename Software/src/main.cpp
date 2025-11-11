@@ -13,9 +13,6 @@
 
 // put function declarations here:
 
-BMU bmu;
-IMU imu;
-LED led;
 
 void setup() {
 }

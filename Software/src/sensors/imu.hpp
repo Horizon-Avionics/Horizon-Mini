@@ -5,6 +5,7 @@
 
 #include <Adafruit_LSM6DS3TRC.h>
 #include <Adafruit_Sensor.h>
+#include "./datalogging/data.hpp"
 
 Adafruit_LSM6DS3TRC lsm6ds3trc;
 
@@ -12,28 +13,15 @@ class IMU{
     private:
 
     public:
-        float gyroX;
-        float gyroY;
-        float gyroZ;
 
-        float absGyroX;
-        float absGyroY;
-        float absGyroZ;
+        AXIS Gyro;
+        AXIS Accel;
+        AXIS speed;
 
-        float accelX;
-        float accelY;
-        float accelZ;
-
-        float speedX;
-        float speedY;
-        float speedZ;
+        AXIS absGyro;
 
         float relAlt;
 
-        float velocity;
-
-
-        
         int setup(){
             if (!lsm6ds3trc.begin_I2C()) {
                 return 1;
@@ -50,19 +38,19 @@ class IMU{
         int imuGetData(float deltaTime = 0.01) {
             sensors_event_t accel, gyro, temp;
             if (lsm6ds3trc.getEvent(&accel, &gyro, &temp)) {
-                accelX = accel.acceleration.x;
-                accelY = accel.acceleration.y;
-                accelZ = accel.acceleration.z;
+                Accel.x = accel.acceleration.x;
+                Accel.y = accel.acceleration.y;
+                Accel.z = accel.acceleration.z;
 
-                gyroX = gyro.gyro.x;
-                gyroY = gyro.gyro.y;
-                gyroZ = gyro.gyro.z;
+                Gyro.x = gyro.gyro.x;
+                Gyro.y = gyro.gyro.y;
+                Gyro.z = gyro.gyro.z;
 
-                speedX += accelX * deltaTime;
-                speedY += accelY * deltaTime;
-                speedZ += accelZ * deltaTime;
+                speed.x += Accel.x * deltaTime;
+                speed.y += Accel.y * deltaTime;
+                speed.z += Accel.z * deltaTime;
 
-                velocity = sqrt(speedX * speedX + speedY * speedY + speedZ * speedZ);
+                speed.velo = sqrt(speed.x * speed.x + speed.y * speed.y + speed.z * speed.z);
 
                 relAlt = 3;
 

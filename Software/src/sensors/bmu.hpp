@@ -5,15 +5,15 @@
 #include <Adafruit_Sensor.h>
 #include <Adafruit_LPS2X.h>
 
+#include "./datalogging/data.hpp"
+
 Adafruit_LPS22 lps;
 
 class BMU {
     private:
 
     public:
-        float Temp;
-        float Pressure;
-        float Alt;
+        AIR baro;
         
         int bmuSetup() {
 
@@ -26,9 +26,9 @@ class BMU {
             sensors_event_t temp;
             sensors_event_t pressure;
 
-            Temp = temp.temperature;
-            Pressure = pressure.pressure;
-            Alt = 44330.0 * (1.0 - pow(Pressure / 1013.25, 0.1903));
+            baro.temp = temp.temperature;
+            baro.pres = pressure.pressure;
+            baro.alt = 44330.0 * (1.0 - pow(baro.pres / 1013.25, 0.1903));
         }
 
 };

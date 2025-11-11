@@ -20,32 +20,6 @@ class EMA {
     }
 };
 
-class Data {
-    public:
-        float oldData = 0;
-        float newData = 0;
 
-};
-
-class data {
-    private:
-
-    public:
-        Data imuGyroX;
-        Data imuGyroY;
-        Data imuGyroZ;
-
-        Data imuAccelX;
-        Data imuAccelY;
-        Data imuAccelZ;
-
-        Data imuSpeedX;
-        Data imuSpeedY;
-        Data imuSpeedZ;
-
-        Data bmuAlt;
-        Data bmuTemp;
-
-};
 
 #endif //EMA.HPP

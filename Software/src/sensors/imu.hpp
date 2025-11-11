@@ -32,8 +32,6 @@ class IMU{
 
         float velocity;
 
-        float autoUP;
-
 
         
         int setup(){
@@ -65,6 +63,9 @@ class IMU{
                 speedZ += accelZ * deltaTime;
 
                 velocity = sqrt(speedX * speedX + speedY * speedY + speedZ * speedZ);
+
+                relAlt = 3;
+
                 return 0;
             }
             else{

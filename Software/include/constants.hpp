@@ -15,4 +15,9 @@ struct Pins {
         static constexpr int nandCS = 0;
 };
 
+struct Constants {
+    public:
+        static constexpr int emaPeriods = 5;
+};
+
 #endif

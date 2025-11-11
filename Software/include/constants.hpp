@@ -5,14 +5,16 @@
 
 struct Pins {
     public:
-        const int LEDR = 0;
-        const int LEDG = 0;
-        const int LEDB = 0;
+        int LEDR = 25;
+        int LEDG = 24;
+        int LEDB = 7;
 
-        const int buz = 0;
+        int buz = 9;
 
-        const int sdCS = 0;
-        const int nandCS = 0;
+        int mosFire = A3;
+
+        int sdCS = 11;
+        int nandCS = A1;
 };
 
 struct Constants {
@@ -20,4 +22,4 @@ struct Constants {
         static constexpr int emaPeriods = 5;
 };
 
-#endif
+#endif //CONSTANTS_HPP

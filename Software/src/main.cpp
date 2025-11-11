@@ -11,6 +11,10 @@
 
 #include "../include/constants.hpp"
 
+// Workaround: some headers may define macros named 'setup' or 'loop' which
+// break Arduino-style function declarations; undefine them so we can use
+// the identifiers as function names.
+
 // put function declarations here:
 
 

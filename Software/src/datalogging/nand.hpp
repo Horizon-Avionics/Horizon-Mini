@@ -19,18 +19,22 @@ class NAND{
 
     public:
 
-        int setup(){
+        int nandSetup(){
             if (!nand.begin()) {
                 return 0;
             }
+            return 1;
         }
 
-        void writeSector(int addr){
-
+        void writeSector(int addr, String packet){
+            deleteSector(addr);
+            char buf[128];
+            packet.toCharArray(buf, sizeof(buf));
+            nand.writeByteArray(0, (uint8_t*)buf, strlen(buf));
         }
 
         void deleteSector(int addr){
-   
+            nand.eraseSector(addr);
         }
 
 };

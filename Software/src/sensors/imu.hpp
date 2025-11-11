@@ -22,7 +22,7 @@ class IMU{
 
         float relAlt;
 
-        int setup(){
+        int imuSetup(){
             if (!lsm6ds3trc.begin_I2C()) {
                 return 1;
             }

@@ -4,6 +4,5 @@
 #include <Arduino.h>
 #include <Adafruit_SPIFlash.h>
 
-class 
 
-#endif //buzzer_hpp
+#endif //BUZZER_HPP

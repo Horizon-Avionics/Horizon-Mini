@@ -79,6 +79,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -116,9 +117,11 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -668,7 +671,8 @@
         "uuid": "a5d09cc4-b500-42c0-a156-c181c966496f"
       }
     ],
-    "used_designators": "R27"
+    "used_designators": "Q2,U7,J4,J16,#PWR54-55,#PWR58-59,#PWR62,#PWR70,#PWR72,#PWR79-80,R25,R29-34",
+    "variants": []
   },
   "sheets": [
     [
